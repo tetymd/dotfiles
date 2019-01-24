@@ -40,8 +40,8 @@ repo = 'nvie/vim-flake8'
 [[plugins]]
 repo = 'Yggdroot/indentLine'
 
-[[plugins]]
-repo = 'valloric/youcompleteme'
+# [[plugins]]
+# repo = 'valloric/youcompleteme'
 
 [[plugins]]
 repo = 'SirVer/ultisnips'
