@@ -27,25 +27,22 @@ fi
 
 # The following lines were added by compinstall
 
-zstyle ':completion:*' completer _complete _ignored
-zstyle :compinstall filename '/home/tetymd/.zshrc'
+# zstyle ':completion:*' completer _complete _ignored
+# zstyle :compinstall filename '/home/tetymd/.zshrc'
 
-autoload -Uz compinit
-compinit
+# autoload -Uz compinit
+# compinit
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-bindkey -v
+# bindkey -v
 # End of lines configured by zsh-newuser-install
 
 # alias
 alias ls="ls -G"
 alias la="ls -a"
 alias ll="ls -lh"
-
-
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
