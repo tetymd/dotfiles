@@ -216,12 +216,6 @@ set scrolloff=8
 "左右スクロール時のの視界を確保
 set sidescrolloff=16
 
-"inoremap { {}<ESC>i
-"inoremap ( ()<ESC>i
-"inoremap " ""<ESC>i
-"inoremap ' ''<ESC>i
-"inoremap ` ``<ESC>i
-"inoremap [ []<ESC>i
 "ハイライトを削除
 nmap <F8> :TagbarToggle<CR>
 nmap <ESC><ESC> :nohlsearch<CR><ESC>
