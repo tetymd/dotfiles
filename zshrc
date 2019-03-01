@@ -61,5 +61,6 @@ alias la='ls -A'
 alias l='ls -CF'
 
 PATH=$PATH:~/.yarn/bin
+PATH=$PATH:~/.local/bin
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

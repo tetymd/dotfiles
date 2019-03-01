@@ -53,7 +53,7 @@ augroup end
 
 "airlineの設定
 " colorscheme solarized
-colorscheme molokai
+colorscheme onedark
 " let g:airline_solarized_bg='dark'
 " let g:solarized_termcolors=256
 " set guifont=Roboto_Mono_for_Powerline:h14

@@ -69,3 +69,6 @@ repo = 'https://github.com/tpope/vim-rails'
 
 [[plugins]]
 repo = 'neomake/neomake'
+
+[[plugins]]
+repo = 'joshdick/onedark.vim'
