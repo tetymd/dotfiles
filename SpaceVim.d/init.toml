@@ -23,6 +23,7 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = false
+    filemanager = "nerdtree"
 
 # Enable autocomplete layer
 [[layers]]
@@ -35,6 +36,11 @@ name = 'shell'
 default_position = 'top'
 default_height = 30
 
+[[layers]]
+name = 'colorscheme'
+
+[[layers]]
+name = "tools"
 
 # [[layers]]
 # name = "lang#go"
@@ -44,3 +50,12 @@ name = 'mattn/gist-vim'
 
 [[custom_plugins]]
 name = 'mattn/webapi-vim'
+
+[[custom_plugins]]
+name = 'Shougo/deol.nvim'
+
+[[custom_plugins]]
+name = 'thinca/vim-quickrun'
+
+[[custom_plugins]]
+name = 'scrooloose/nerdtree'

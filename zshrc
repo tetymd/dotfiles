@@ -60,7 +60,11 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-PATH=$PATH:~/.yarn/bin
-PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.yarn/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/go/bin
+export PATH=$PATH:/usr/lib/go/bin
+
+export GO111MODULE=on
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
